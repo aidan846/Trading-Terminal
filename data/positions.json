@@ -1,0 +1,47 @@
+{
+  "portfolio": {
+    "portfolio_name": "My Investment Account",
+    "uninvested_cash": 1250.75,
+    "currency": "USD",
+    "last_updated": "2024-06-01T12:00:00Z",
+    "positions": [
+      {
+        "ticker": "AAPL",
+        "type": "stock",
+        "shares": 15.0,
+        "avg_price": 175.50,
+        "current_price": 180.25,
+        "daily_pl": 2.75,
+        "open_pl": 71.25
+      },
+      {
+        "ticker": "VTI",
+        "type": "etf",
+        "shares": 25.5,
+        "avg_price": 242.10,
+        "current_price": 245.00,
+        "daily_pl": 1.50,
+        "open_pl": 72.00
+
+      },
+      {
+        "ticker": "TSLA",
+        "type": "stock",
+        "shares": 10.0,
+        "avg_price": 190.25,
+        "current_price": 195.00,
+        "daily_pl": 3.50,
+        "open_pl": 47.50
+      },
+      {
+        "ticker": "QQQ",
+        "type": "etf",
+        "shares": 5.0,
+        "avg_price": 435.00,
+        "current_price": 440.00,
+        "daily_pl": 2.50,
+        "open_pl": 25.00
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+Screen {
+    layout: grid;
+    /* 5 columns, 4 rows */
+    grid-size: 5 4; 
+    /* This ensures every row and column is a proportional "slice" */
+    grid-columns: 1fr;
+    grid-rows: 1fr;
+    /* This creates the uniform spacing */
+    grid-gutter: 1;
+    padding: 1;
+}
+
+#static1 {
+    /* Grid Positioning */
+    column-span: 1;
+    row-span: 4;
+
+    /* Size and Filling */
+    height: 100%;
+    width: 100%;
+
+    /* Styling */
+    border: round $primary;
+}
+
+DataTable {
+    background: transparent;
+}
+
+#static2 {
+    column-span: 4;
+    row-span: 2;
+    border: round $primary;
+}
+
+#summary-row {
+    width: 100%;
+    height: 100%;
+}
+
+#metrics-column {
+    width: 30%;
+    height: 100%;
+    padding: 1;
+    border-right: round $primary;
+}
+
+#chart-column {
+    width: 70%;
+    height: 100%;
+    padding: 1;
+}
+
+.panel-title {
+    margin-bottom: 1;
+    text-style: bold;
+}
+
+.metric {
+    margin-bottom: 1;
+    padding-left: 1;
+}
+
+#balance {
+    text-style: bold;
+}
+
+#balance-chart {
+    width: 100%;
+    height: 100%;
+}
+
+#static3 {
+    column-span: 4;
+    row-span: 2;
+    border: round $primary;
+    height: 100%;
+}
+
+
+#profit { color: green; }
+#loss { color: red; }
